@@ -15,3 +15,4 @@ DesignFlow is a subscription-based platform offering on-demand design services s
 ---
 
 ## File Structure
+DesignFlow/ ├── index.html (Home Page) ├── dashboard.html (Dashboard Page) ├── request-design.html (Request Design Page) ├── styles/ │ └── style.css (CSS for styling) ├── scripts/ │ └── script.js (JavaScript functionality)
