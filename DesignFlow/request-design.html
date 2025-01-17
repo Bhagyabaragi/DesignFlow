@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignFlow - Request a Design</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Request a Design</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="request-design.html">Request a Design</a>
+    </nav>
+  </header>
+  <main>
+    <form id="designRequestForm">
+      <label for="projectName">Project Name:</label>
+      <input type="text" id="projectName" name="projectName" required>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+      
+      <label for="deadline">Deadline:</label>
+      <input type="date" id="deadline" name="deadline" required>
+      
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 DesignFlow. All rights reserved.</p>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
